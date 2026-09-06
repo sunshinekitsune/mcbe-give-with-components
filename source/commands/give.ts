@@ -182,6 +182,10 @@ function resolveItemStack(targets: Player[], itemType: ItemType, data: number): 
 		// 1. Save the item in slot 0.
 		const originalStack = inventory.container.getItem(0);
 
+		// safeguard set the slot to air in case the command fails. I haven't been able to identify a case where it has,
+		// but minecraft gives me trust issues.
+		inventory.container.setItem(0);
+
 		// 2. Replace the item in the same slot using a command to use data values.
 		target.runCommand(`replaceitem entity @s slot.hotbar 0 ${itemType.id} 1 ${data}`);
 
