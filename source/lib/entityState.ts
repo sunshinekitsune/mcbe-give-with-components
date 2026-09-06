@@ -37,6 +37,7 @@ export type EntityState = (typeof EntityState)[keyof typeof EntityState];
  * without relying on the potentially absent {@link EntityHealthComponent} component.
  *
  * @param entity The entity to get the state of.
+ *
  * @returns The `entity`'s determined {@link EntityState}.
  */
 export function getEntityState(entity: Entity): EntityState {
@@ -62,6 +63,7 @@ export function getEntityState(entity: Entity): EntityState {
  * invalid. Otherwise returns true.
  *
  * @param entity The entity to validate.
+ *
  * @returns The validity of the entity
  */
 export function isEntityValid(entity: Entity): boolean {

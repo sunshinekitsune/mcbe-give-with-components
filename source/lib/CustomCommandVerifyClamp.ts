@@ -10,6 +10,7 @@ import { type CustomCommandResult, CustomCommandStatus } from "@minecraft/server
  * @param value The value to check.
  * @param min The minimum range of the check.
  * @param max The maximum range of the check.
+ *
  * @returns A {@link CustomCommandResult} failure if out of bounds, or `undefined` if valid.
  */
 export function CustomCommandVerifyClamp(value: number, min: number, max: number): CustomCommandResult | undefined {

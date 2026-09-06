@@ -13,15 +13,15 @@
 	"header": {
 		"description": "Made with moderate amounts of care.",
 		"min_engine_version": [1, 26, 33],
-		"name": "Gametest Starter Addon",
-		"uuid": "1ea0288f-1f50-4b20-ba90-48acdaa922ef",
+		"name": "Component Commands",
+		"uuid": "0b2ce2c5-f9bd-4b20-b15f-432754c47827",
 		"version": [1, 0, 0]
 	},
 	"modules": [
 		{
 			"description": "Addon Module",
 			"type": "data",
-			"uuid": "6164d51f-d279-40d3-b71e-a192b62d42fb",
+			"uuid": "a196fa4d-fb1f-474e-9613-a4b5258dd8fa",
 			"version": [1, 0, 0]
 		},
 		{
@@ -29,7 +29,7 @@
 			"entry": "scripts/main.esm.js",
 			"language": "javascript",
 			"type": "script",
-			"uuid": "e6eeceee-5020-4c64-b9ed-43cd04822296",
+			"uuid": "ffbca33a-d356-4d80-a5b7-ea190a38c90f",
 			"version": [1, 0, 0]
 		}
 	]

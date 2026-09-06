@@ -1,5 +1,5 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.5.7/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.5.12/schema.json",
 	"assist": {
 		"actions": {
 			"source": {
@@ -36,7 +36,7 @@
 		"indentStyle": "tab",
 		"indentWidth": 3,
 		"lineEnding": "lf",
-		"lineWidth": 100
+		"lineWidth": 120
 	},
 	"html": {
 		"experimentalFullSupportEnabled": true,
@@ -90,7 +90,11 @@
 				"noUnknownProperty": "error",
 				"noUnknownPseudoClass": "error",
 				"noUnknownPseudoElement": "error",
-				"noUnresolvedImports": "off"
+				"noUnresolvedImports": "off",
+				"noUnusedImports": {
+					"fix": "safe",
+					"level": "error"
+				}
 			},
 			"nursery": {
 				"noEmptyObjectKeys": "warn",

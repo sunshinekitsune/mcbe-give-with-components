@@ -36,10 +36,10 @@
 	"editor.quickSuggestions": {
 		"strings": true
 	},
-	"editor.rulers": [100],
+	"editor.rulers": [120],
 	"editor.tabSize": 3,
 	"editor.wordWrap": "wordWrapColumn",
-	"editor.wordWrapColumn": 100,
+	"editor.wordWrapColumn": 120,
 	"files.eol": "\n",
 	"html.validate.scripts": false,
 	"html.validate.styles": false,
